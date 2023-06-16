@@ -1,0 +1,7 @@
+findingintegrity.dev {
+	redir https://www.{host}{uri}
+}
+
+www.findingintegrity.dev {
+	reverse_proxy localhost:3000
+}
