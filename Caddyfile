@@ -3,5 +3,6 @@ findingintegrity.dev {
 }
 
 www.findingintegrity.dev {
-	reverse_proxy localhost:3000
+	root * /home/integrity/finding-integrity/dist
+	file_server 
 }
